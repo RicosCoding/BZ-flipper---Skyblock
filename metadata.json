@@ -1,0 +1,8 @@
+{
+  "name": "bzflipper",
+  "creator": "tombl",
+  "description": "Hypixel Skyblock bazaar flipping helper",
+  "entry": "./index.js",
+  "version": "1.0.0",
+  "requires": ["PromiseV2"]
+}

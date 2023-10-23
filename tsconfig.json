@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "importsNotUsedAsValues": "error",
+    "module": "ES2015",
+    "moduleResolution": "node",
+    "outDir": "./dist",
+    "removeComments": true,
+    "downlevelIteration": true,
+    "rootDir": "./src",
+    "strict": true,
+    "skipLibCheck": true,
+    "lib": ["ES2019"],
+    "resolveJsonModule": true,
+    "types": ["ctjs-type-defs"],
+    "target": "es5"
+  },
+  "include": ["src/**/*"]
+}
