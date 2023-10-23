@@ -9,18 +9,3 @@ To use it, simply run `/bzf find`. It will then find the most profitable bazaar 
 
 If you know exactly what you want to make, you just want to know what the ideal method of obtaining it is, you can use `/bzf set <item name>`.
 
-## Building
-Compilation relies on some shell scripts, so you need to use WSL/macOS/Linux
-
-```sh
-cd data
-npm install
-./generate.sh
-cd ..
-npm install
-./build.sh
-```
-
----
-
-Depends on [ChatTriggers](https://www.chattriggers.com/)
